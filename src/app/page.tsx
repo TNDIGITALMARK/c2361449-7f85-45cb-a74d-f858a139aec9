@@ -237,7 +237,7 @@ export default function HomePage() {
               {
                 name: 'Jennifer Lopez',
                 event: 'Anniversary Celebration',
-                quote: 'The custom champagne cocktail menu was perfect for our intimate celebration. Francesca's attention to detail and warm service made our evening truly special.',
+                quote: 'The custom champagne cocktail menu was perfect for our intimate celebration. Francesca\'s attention to detail and warm service made our evening truly special.',
                 rating: 5
               }
             ].map((testimonial, index) => (
