@@ -19,8 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Beyond The Bar - Premium Mobile Bartending | Austin & Denver",
+  description: "Professional mobile bartending service bringing artisan cocktails and fully equipped bars directly to your wedding, corporate event, or celebration. Serving Austin and Denver with 8+ years of mixology expertise.",
+  keywords: "mobile bartending, wedding bartender, corporate event bar service, Austin bartender, Denver bartender, signature cocktails, mobile bar rental, craft cocktails, event bartending",
 };
 
 export default function RootLayout({
