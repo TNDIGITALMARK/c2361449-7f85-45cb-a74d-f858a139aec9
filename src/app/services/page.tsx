@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { ServiceCard } from '@/components/ServiceCard';
+import { PackageCard } from '@/components/PackageCard';
 import { ContactForm } from '@/components/ContactForm';
 import { Button } from '@/components/ui/button';
 import { Check, Wine, Users, Briefcase, Heart } from 'lucide-react';
@@ -26,15 +27,36 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Service Packages */}
+      {/* Featured Package - $850 */}
+      <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="inline-block bg-primary/10 px-6 py-2 rounded-full mb-4">
+              <span className="text-primary font-semibold text-sm tracking-wider uppercase">
+                Most Popular
+              </span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4">
+              Our Signature Package
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Everything you need for an exceptional mobile bar experience - all in one comprehensive package
+            </p>
+          </div>
+
+          <PackageCard />
+        </div>
+      </section>
+
+      {/* Additional Service Packages */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4">
-              Our Service Packages
+              Additional Service Options
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Choose the perfect package for your event or let us create a custom solution
+              Customize your experience with these complementary service packages
             </p>
           </div>
 
