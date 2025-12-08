@@ -96,7 +96,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center text-secondary-foreground/60">
+        <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center text-white">
           <p>&copy; {new Date().getFullYear()} The Nearest Bar. All rights reserved.</p>
         </div>
       </div>
