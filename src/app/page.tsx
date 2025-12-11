@@ -29,7 +29,7 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-serif font-bold text-white title-on-dark mb-6 animate-fade-in">
               Elevate Your Celebration with
-              <span className="text-primary block mt-2">Artisan Cocktail Experiences</span>
+              <span className="text-primary block mt-2">memorable Cocktail Experiences</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 subtitle-on-dark mb-8 leading-relaxed">
               Premium mobile bartending service bringing professional mixology and custom signature drinks directly to your event
@@ -55,30 +55,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Trust Indicators */}
-      <section className="py-12 bg-muted/30 border-y border-border">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">8+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-sm text-muted-foreground">Events Served</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">100%</div>
-              <div className="text-sm text-muted-foreground">Client Satisfaction</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">2</div>
-              <div className="text-sm text-muted-foreground">Cities Served</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Whitney's Story */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
@@ -97,17 +73,11 @@ export default function HomePage() {
                 <span className="text-primary font-semibold text-sm tracking-wider uppercase">Meet Whitney</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-serif font-bold">
-                Master Mixologist with a Passion for Perfection
+                TABC Certified Bartender with 7 Years of Experience
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-foreground/80 leading-relaxed">
-                  With 8 years of experience crafting signature cocktails across Austin and Denver, I founded The Nearest Bar to bring the artistry and precision of high-end mixology directly to your celebration.
-                </p>
-                <p className="text-foreground/80 leading-relaxed">
-                  Every event is unique, and I believe your beverage service should reflect that. From custom cocktail menus designed around your event's theme to fully equipped mobile bar setups, I'm committed to creating a memorable bar experience that your guests will be talking about long after the last glass is raised.
-                </p>
-                <p className="text-foreground/80 leading-relaxed">
-                  Whether it's an intimate anniversary celebration or a grand wedding reception, I bring the same level of dedication, creativity, and professionalism that has made The Nearest Bar the preferred choice for discerning hosts across Texas and Colorado.
+                  With seven years of bartending under my belt, I'm the girl who brings the party to your party. You bring the liquor, and I'll bring everything else—shakers, mixers, vibes, and a whole lot of fun—so you can actually enjoy your guests instead of running around stressed. I keep the drinks flowing, the energy high, and the good times rolling. Basically… you host, I handle the chaos. Cheers to that!
                 </p>
               </div>
 
@@ -117,8 +87,8 @@ export default function HomePage() {
                     <Award className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <div className="font-semibold">Certified Mixologist</div>
-                    <div className="text-sm text-muted-foreground">Professional Training</div>
+                    <div className="font-semibold">TABC Certified</div>
+                    <div className="text-sm text-muted-foreground">7 Years Experience</div>
                   </div>
                 </div>
 
@@ -157,8 +127,8 @@ export default function HomePage() {
               features={[
                 'Fully equipped mobile bar',
                 '1 signature cocktail',
-                'Professional bartender (4 hrs)',
-                'All glassware & bar tools',
+                'TABC certified bartender (4 hrs)',
+                'All cups & bar tools',
                 'Setup & breakdown included'
               ]}
               highlighted
@@ -169,10 +139,10 @@ export default function HomePage() {
               description="Elevated beverage service for beer and wine only"
               price="$500"
               features={[
-                'Professional bartender',
+                'TABC certified bartender',
                 'Beer & wine service only',
                 'Ice & coolers provided',
-                'Glassware included',
+                'Cups included',
                 '4 hour service'
               ]}
             />
@@ -182,7 +152,7 @@ export default function HomePage() {
               description="Professional bartender for your existing bar setup"
               price="$400"
               features={[
-                'Experienced mixologist',
+                'TABC certified bartender',
                 'Professional bar service',
                 '4 hour minimum',
                 'Bar tools included',

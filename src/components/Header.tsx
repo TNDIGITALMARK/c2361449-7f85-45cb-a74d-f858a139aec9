@@ -18,9 +18,9 @@ export function Header() {
             <Image
               src="/the-nearest-bar-logo.png"
               alt="The Nearest Bar - Mobile Bartending Services"
-              width={200}
-              height={80}
-              className="h-16 w-auto"
+              width={240}
+              height={96}
+              className="h-20 w-auto"
               priority
             />
           </Link>
@@ -44,6 +44,12 @@ export function Header() {
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
               Gallery
+            </Link>
+            <Link
+              href="/services#faq"
+              className="text-foreground hover:text-primary transition-colors font-medium"
+            >
+              FAQ
             </Link>
             <Button
               asChild
@@ -91,6 +97,13 @@ export function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Gallery
+              </Link>
+              <Link
+                href="/services#faq"
+                className="text-foreground hover:text-primary transition-colors font-medium"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                FAQ
               </Link>
               <Button
                 asChild
