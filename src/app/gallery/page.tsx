@@ -90,7 +90,7 @@ export default function GalleryPage() {
                 key={filter.value}
                 variant={selectedCategory === filter.value ? 'default' : 'outline'}
                 onClick={() => setSelectedCategory(filter.value)}
-                className={selectedCategory === filter.value ? 'bg-primary text-primary-foreground' : ''}
+                className={selectedCategory === filter.value ? 'bg-primary text-primary-foreground button-text-white' : ''}
               >
                 {filter.label}
               </Button>
@@ -202,7 +202,7 @@ export default function GalleryPage() {
           </p>
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-10 py-6"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-10 py-6 button-text-white"
             asChild
           >
             <a href="#contact">Start Planning Your Event</a>

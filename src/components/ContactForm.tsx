@@ -147,7 +147,7 @@ export function ContactForm() {
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-lg"
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground text-lg button-text-white"
                 >
                   Request Your Free Quote
                 </Button>

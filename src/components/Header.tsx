@@ -53,7 +53,7 @@ export function Header() {
             </Link>
             <Button
               asChild
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground button-text-white"
             >
               <Link href="#contact">Book Now</Link>
             </Button>
@@ -107,7 +107,7 @@ export function Header() {
               </Link>
               <Button
                 asChild
-                className="bg-primary hover:bg-primary/90 text-primary-foreground w-full"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground w-full button-text-white"
               >
                 <Link href="#contact" onClick={() => setMobileMenuOpen(false)}>
                   Book Now

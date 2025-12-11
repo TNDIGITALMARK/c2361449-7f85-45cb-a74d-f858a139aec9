@@ -37,7 +37,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 button-text-white"
                 asChild
               >
                 <Link href="#contact">Book Your Event</Link>
@@ -281,7 +281,7 @@ export default function HomePage() {
           </p>
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-10 py-6"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-10 py-6 button-text-white"
             asChild
           >
             <Link href="#contact">Get Your Free Quote</Link>

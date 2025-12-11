@@ -37,7 +37,7 @@ export function ServiceCard({ title, description, price, features, highlighted =
         </ul>
       </CardContent>
       <CardFooter>
-        <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
+        <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground button-text-white" size="lg">
           Get a Quote
         </Button>
       </CardFooter>

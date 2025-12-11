@@ -295,6 +295,15 @@ em {
 }
 
 /* ============================================
+   BUTTON TEXT UTILITIES
+   ============================================ */
+
+/* White text for buttons with golden/dark backgrounds */
+.button-text-white {
+  color: white !important;
+}
+
+/* ============================================
    FORM & BUTTON DEFAULTS
    ============================================ */
 

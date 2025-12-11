@@ -342,7 +342,7 @@ export default function ServicesPage() {
           </p>
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-10 py-6"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-10 py-6 button-text-white"
             asChild
           >
             <Link href="#contact">Request Your Quote</Link>
