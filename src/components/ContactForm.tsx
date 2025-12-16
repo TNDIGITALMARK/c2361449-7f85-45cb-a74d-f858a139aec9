@@ -125,7 +125,7 @@ export function ContactForm() {
                       <SelectContent>
                         <SelectItem value="mobile-bar">Premium Mobile Bar Experience</SelectItem>
                         <SelectItem value="signature-cocktails">Signature Cocktail Design</SelectItem>
-                        <SelectItem value="beer-wine">Beer & Wine Service</SelectItem>
+                        <SelectItem value="beer-wine">Beer and Wine Service</SelectItem>
                         <SelectItem value="bartender-only">Bartender Only Service</SelectItem>
                         <SelectItem value="custom">Custom Package</SelectItem>
                       </SelectContent>

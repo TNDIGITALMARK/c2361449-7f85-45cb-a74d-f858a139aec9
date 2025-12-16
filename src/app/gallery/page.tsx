@@ -160,7 +160,7 @@ export default function GalleryPage() {
               "Whitney's mobile bar was the highlight of our wedding. Every detail was perfect, from the elegant setup to the incredible lavender gin fizz that became our signature drink."
             </blockquote>
             <div className="text-lg">
-              <div className="font-semibold">Sarah & Michael Thompson</div>
+              <div className="font-semibold">Sarah and Michael Thompson</div>
               <div className="text-muted-foreground">Hill Country Ranch Wedding</div>
             </div>
           </div>

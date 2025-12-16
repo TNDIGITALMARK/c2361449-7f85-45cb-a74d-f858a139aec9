@@ -9,8 +9,8 @@ export function PackageCard() {
     'Basic garnishes',
     'Basic mixers',
     '1 signature cocktail',
-    'Plastic cups/napkins/straws',
-    'Set up/break down 1 hour each',
+    'Plastic cups, napkins, straws',
+    'Set up and break down 1 hour each',
     'Basic table bar and table cloth',
     'Coolers with ice',
     'Insurance'

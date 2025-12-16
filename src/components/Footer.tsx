@@ -59,7 +59,7 @@ export function Footer() {
             <ul className="space-y-2 text-secondary-foreground/80">
               <li>Mobile Bar Experience</li>
               <li>Signature Cocktail Design</li>
-              <li>Beer & Wine Service</li>
+              <li>Beer and Wine Service</li>
               <li>Bartender Services</li>
             </ul>
           </div>

@@ -25,7 +25,7 @@ const overTheRainbow = Over_the_Rainbow({
 });
 
 export const metadata: Metadata = {
-  title: "The Nearest Bar - Premium Mobile Bartending | Austin",
+  title: "The Nearest Bar | Premium Mobile Bartending | Austin",
   description: "Professional mobile bartending service bringing artisan cocktails and fully equipped bars directly to your wedding, corporate event, or celebration. Serving Austin with 8+ years of mixology expertise.",
   keywords: "mobile bartending, wedding bartender, corporate event bar service, Austin bartender, signature cocktails, mobile bar rental, craft cocktails, event bartending, Austin event bartending",
 };

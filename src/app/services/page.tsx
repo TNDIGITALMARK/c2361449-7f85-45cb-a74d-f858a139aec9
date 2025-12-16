@@ -28,7 +28,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Featured Package - $850 */}
+      {/* Featured Package $850 */}
       <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -41,7 +41,7 @@ export default function ServicesPage() {
               Our Signature Package
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Everything you need for an exceptional mobile bar experience - all in one comprehensive package
+              Everything you need for an exceptional mobile bar experience, all in one comprehensive package
             </p>
           </div>
 
@@ -70,26 +70,26 @@ export default function ServicesPage() {
                 'Fully equipped mobile bar',
                 '1 signature cocktail',
                 'TABC certified bartender (4 hrs)',
-                'Bar tools & cups',
-                'Setup & breakdown',
+                'Bar tools and cups',
+                'Setup and breakdown',
                 'Travel up to 30 miles',
-                'Basic mixers & garnishes',
+                'Basic mixers and garnishes',
                 'Insurance included'
               ]}
               highlighted
             />
 
             <ServiceCard
-              title="Beer & Wine Service"
+              title="Beer and Wine Service"
               description="Elevated beverage service"
               price="$500"
               features={[
                 'TABC certified bartender',
-                'Beer & wine service only',
-                'Ice & coolers provided',
+                'Beer and wine service only',
+                'Ice and coolers provided',
                 'Cups included',
                 '4 hour service',
-                'Setup & breakdown',
+                'Setup and breakdown',
                 'No full bar required'
               ]}
             />
@@ -278,7 +278,7 @@ export default function ServicesPage() {
                   Do you provide alcohol?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
-                  No, I don't provide alcohol. Just everything else - shakers, mixers, cups, bar tools, setup, and professional bartending service. You bring the liquor, and I'll bring everything needed to create an amazing bar experience!
+                  No, I don't provide alcohol. Just everything else: shakers, mixers, cups, bar tools, setup, and professional bartending service. You bring the liquor, and I'll bring everything needed to create an amazing bar experience!
                 </AccordionContent>
               </AccordionItem>
 

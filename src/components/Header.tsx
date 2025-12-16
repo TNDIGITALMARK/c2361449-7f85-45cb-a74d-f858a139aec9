@@ -17,7 +17,7 @@ export function Header() {
           <Link href="/" className="flex items-center">
             <Image
               src="/the-nearest-bar-logo.png"
-              alt="The Nearest Bar - Mobile Bartending Services"
+              alt="The Nearest Bar Mobile Bartending Services"
               width={240}
               height={96}
               className="h-20 w-auto"
