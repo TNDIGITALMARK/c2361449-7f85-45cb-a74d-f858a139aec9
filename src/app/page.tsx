@@ -61,8 +61,8 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
               <Image
-                src="/generated/whitney-bartender.png"
-                alt="Whitney Torres - Master Mixologist"
+                src="/generated/drinks.jpg"
+                alt="Signature cocktails with lemon twist garnish"
                 fill
                 className="object-cover"
               />
