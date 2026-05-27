@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -14,17 +14,6 @@ export function Footer() {
             <p className="text-secondary-foreground/80 mb-4">
               Premium mobile bartending service bringing professional cocktail artistry to your celebration.
             </p>
-            <div className="flex gap-4 items-center">
-              <a
-                href="https://instagram.com/thenearestbaratx"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-secondary-foreground/80 hover:text-primary transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
