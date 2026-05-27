@@ -31,7 +31,7 @@ export default function HomePage() {
               <span className="text-primary block mt-2">memorable Cocktail Experiences</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 subtitle-on-dark mb-8 leading-relaxed">
-              Premium mobile bartending service bringing professional mixology and custom signature drinks directly to your event
+              Premium mobile bartending service in Austin bringing professional mixology and custom signature drinks directly to your event
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
