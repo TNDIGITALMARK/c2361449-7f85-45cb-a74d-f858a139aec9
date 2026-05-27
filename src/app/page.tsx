@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { ServiceCard } from '@/components/ServiceCard';
 import { ContactForm } from '@/components/ContactForm';
 import { Button } from '@/components/ui/button';
 import { Sparkles, Award, Heart, Star } from 'lucide-react';
@@ -118,44 +117,10 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <ServiceCard
-              title="Premium Mobile Bar Experience"
-              price="Price starts at $800"
-              description="Complete mobile bar setup with all supplies and equipment"
-              features={[
-                'TABC certified bartender (4 hrs)',
-                'Fully equipped mobile bar',
-                '1 signature cocktail',
-                'All cups, bar tools, coolers, and garnishes',
-                'Setup & breakdown included'
-              ]}
-              highlighted
-            />
-
-            <ServiceCard
-              title="Beer and Wine Service"
-              price="Price $550"
-              description="Elevated beverage service for beer and wine only"
-              features={[
-                'TABC certified bartender',
-                'Beer and wine service only',
-                'Coolers provided',
-                'Cups included'
-              ]}
-            />
-
-            <ServiceCard
-              title="Bartender Only"
-              price="Price $400"
-              description="Professional bartender for your existing bar setup"
-              features={[
-                'TABC certified bartender',
-                'Professional bar service',
-                'Bar tools included',
-                'No supplies provided'
-              ]}
-            />
+          <div className="text-center py-12">
+            <p className="text-3xl md:text-4xl font-serif font-bold text-primary">
+              Packages Starting At $400
+            </p>
           </div>
 
           <div className="text-center mt-12">
