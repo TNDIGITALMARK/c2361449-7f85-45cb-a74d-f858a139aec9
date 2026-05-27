@@ -40,7 +40,7 @@ export default function HomePage() {
                 className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 button-text-white"
                 asChild
               >
-                <Link href="#contact">Book An Event</Link>
+                <Link href="#contact">Get A Quote</Link>
               </Button>
               <Button
                 size="lg"
